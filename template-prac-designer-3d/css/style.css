@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background: rgb(159, 212, 233);
+    height: 100vh;
+}
+.sub-back{
+    height: 13vh;
+    width: 100%;
+    background: rgb(228, 126, 126);
+}
+.main{
+    display: flex;
+   
+}
+.main p{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.main img{
+    width: 50px;
+    height: 30px;
+    
+    margin-top: 7px;
+    margin-left: 1000px;
+}
+.sub-main{
+    display: flex;
+}
+.sub-main h1{
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+.sub-main ul li{
+    display: inline-block;
+    padding: 5px 50px;
+}
+.sub-main ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize;
+
+}
+.sub-main button{
+    height: 25px;
+    width: 200px;
+    border: none;
+    font-weight: 600;
+
+}
+.front{
+    height: 45vh;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/pc-2.jpg);
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+.sub-front{
+    margin-top: 60px;
+    margin-left: 200px;
+    position: absolute;
+    color: white;
+}
+.sub-front h1{
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.sub-front p{
+    margin-top: 15px;
+}
+.sub-front button{
+    height: 30px;
+    width: 200px;
+    border: none;
+    margin-top: 15px;
+    background: rgb(224, 133, 133);
+}
+.middle{
+    height: 40vh;
+    width: 100%;
+    background: rgb(130, 214, 130);
+}
+.sub-middle{
+    position: absolute;
+    margin: 10px 420px;
+}
+.sub-middle h1{
+    text-transform: capitalize;
+}
+.row{
+    display: flex;
+    position: relative;
+    width: 90%;
+}
+.col{
+    margin-top: 30px;
+}
+.col h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(219, 95, 73);
+}
+.background{
+    height: 60vh;
+    width: 100%;
+    background: rgb(177, 165, 165);
+    position: absolute;
+}
+.background h1{
+    margin: 20px 430px 0;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.background p{
+    margin: 10px 400px;
+}
+.sub-background{
+   margin-top: 20px; 
+   display: flex;
+   justify-content: space-between;
+}
+.sub-background img{
+    width: 15%;
+    margin-top: 10px;
+}
+.pic-1{
+  margin-left: 100px;
+  padding: 20px;
+  background: rgb(99, 221, 152);
+  box-shadow: 10px 8px 17px black;
+}
+.pic-2{
+    padding: 20px;
+    background: rgb(99, 221, 152);
+    box-shadow: 10px 8px 17px black;
+  }
+  .pic-3{
+      margin-right: 45px;
+    padding: 20px;
+    background: rgb(99, 221, 152);
+    box-shadow: 10px 8px 17px black;
+  }
+  .last{
+      height: 30vh;
+      width: 100%;
+      background: red;   
+  }
+  .sn{
+      margin-left: 640px;
+      margin-top: 35px;
+  }
+  span{
+      height: 16px;
+      width: 16px;
+      display: inline-block;
+      border-radius: 50%;
+      margin-top: 20px;
+    
+      background: rgb(223, 31, 31);
+  }
+
+
+

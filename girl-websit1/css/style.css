@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+.navbar{
+    width: 90%;
+    height: 15vh;
+    margin: 40px 10px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+.cart{
+    width: 80px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 40px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    margin: 10px 15px;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: rgb(228, 8, 8);
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: black;
+}
+.content p{
+    font-size: 30px;
+    color: rgb(185, 17, 17);
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content a{
+    font-size: 25px;
+    color: indigo;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 6
+    
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, red,yellow);
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    box-shadow: 8px 8px 5px black;
+}
+.content .btn:hover{
+    background: green;
+    color: honeydew;
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+.feature-img{
+    height: 60%;
+    width: 33%;
+    position: absolute;
+    bottom: 30px;
+    right: 160px;
+    box-shadow: 8px 8px 10px gold;
+    transition: 0.5s;
+}
+.feature-img:hover{
+    transform: translateY(-70px);
+}
+.social-icon{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -70px;
+    bottom: 200px;
+
+}
+.social-icon a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    font-size: 35px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+.social-icon a:hover{
+    color: red;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

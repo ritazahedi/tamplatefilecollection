@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    height: 100vh;
+    background: rgb(100, 228, 156);
+}
+.head{
+    height: 55vh;
+    width: 95%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Lighthouse.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.sub-head{
+    display: flex;
+}
+.sub-head h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.sub-head span{
+    font-size: 40px;
+    color: red;
+}
+.sub-head ul li{
+    list-style: none;
+    padding: 15px 45px;
+    display: inline-block;
+    
+}
+.sub-head ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+ img{
+    width: 40px;
+    height: 35px;
+    margin-top: 23px;
+    margin-left: 95px;
+}
+.pera{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.pera h2{
+    color: white;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+.pera span{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.pera p{
+    color: white;
+}
+.middle{
+    display: flex;
+    width: 80%;
+    position: relative;
+}
+.col{
+    flex: 25%;
+    margin-left: 13%;
+    background: rgb(236, 108, 108);
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+  box-shadow: 8px 8px 20px black; 
+}
+
+.col h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.last{
+    margin-top: 90px;
+    display: flex;
+}
+.sub-last-1{
+    margin-left: 60px; 
+}
+.sub-last-1 h4{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.sub-last-1 h4 span{
+    color: rgb(32, 24, 24);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.sub-last-1{
+    margin-top: 10px;
+}
+.sub-last-1 button{
+    height: 28px;
+    width: 210px;
+    border: none;
+    margin-top: 12px;
+    border-radius: 0 10px 0 10px;
+    font-weight: 600;
+    background: rgb(221, 131, 131);
+}
+.sub-last-2{
+    margin-left: 180px;
+}
+.sub-last-2 img{
+    width: 170px;
+    height: 150px;
+}
